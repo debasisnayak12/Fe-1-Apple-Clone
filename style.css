@@ -38,11 +38,11 @@ nav > ul > li > a {
   flex-shrink: 0;
   margin-top: 10px;
 }
-.each-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.each-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #phone-types > div > h5 {
   color: #1d1d1f;
@@ -63,4 +63,71 @@ nav > ul > li > a {
   font-weight: 400;
   line-height: 12px; /* 120% */
   letter-spacing: -0.08px;
+}
+#second-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 266px;
+}
+#second-section div:nth-child(1) {
+  color: #6e6e73;
+  text-align: center;
+  font-family: SF Pro Text;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px; /* 147.059% */
+  letter-spacing: -0.374px;
+  margin-bottom: 10px;
+}
+#second-section div:nth-child(3) {
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52.008px; /* 108.349% */
+  letter-spacing: -0.144px;
+  background: linear-gradient(
+    90deg,
+    #2ca2b4 0%,
+    #5598de 24%,
+    #7f87ff 45%,
+    #f65aad 76%,
+    #ec3d43 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+}
+#second-section div:nth-child(4) {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29.001px; /* 138.1% */
+  letter-spacing: 0.231px;
+  margin-bottom: 15px;
+}
+#second-section > div > button {
+  border-radius: 980px;
+  background: #0071e3;
+  padding: 8px 15.6px 8px 16px;
+  color: white;
+  border: none;
+}
+#second-section > div > a {
+  color: #06c;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29.001px; /* 138.1% */
+  letter-spacing: 0.231px;
+  text-decoration: none;
+  margin-left: 28px;
+}
+#second-section div:last-child {
+  padding: 20px 116px;
 }
